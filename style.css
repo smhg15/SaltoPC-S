@@ -1,0 +1,23 @@
+.container{
+  display: inline-flex;
+}
+
+.p, .c, .s{
+  width: 9px;
+  display: block;
+  overflow: hidden;
+  padding: 0;
+  min-width: 9px;
+  transition: 1s;
+}
+.and{
+  width: 11px;
+  display: block;
+  padding: 0;
+  min-width: 11px;
+  font-family: sans-serif;
+}
+.p:hover, .c:hover, .s:hover{
+  width: 100%;
+  transition: 2s;
+}
